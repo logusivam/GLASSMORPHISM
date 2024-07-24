@@ -181,3 +181,42 @@ span
 {
     opacity: 60%;
 }
+
+.button:hover > button {
+  transform: translateY(5px);
+}
+
+.button.first {
+  top: 12%;
+  right: 20%;
+}
+
+.button .sec
+{
+    bottom: 13%;
+    right: 11%;
+}
+
+.button .sec > button
+{
+    background-color: var(--accentBg);  box-shadow: 0px -3px 15px 0px var(--accentHi) inset;  color: var(--accentFg);
+}
+
+.button.sec > span {
+  background-color: var(--accentHi);
+}
+
+.button.third {
+  bottom: 25%;
+  left: 15%;
+}
+
+.button.third > button {
+  background-color: var(--secondaryBg);
+  box-shadow: 0px -3px 15px 0px var(--secondary) inset;
+  color: var(--secondaryFg);
+}
+
+.button.third > span {
+  background-color: var(--secondaryHi);
+}
