@@ -175,3 +175,9 @@ span
     bottom: -50px;
     transition: all 0.2s ease;
 }
+
+/* button hover */
+.button:hover > span
+{
+    opacity: 60%;
+}
