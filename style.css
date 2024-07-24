@@ -133,8 +133,45 @@ nav
 {
     display: flex;
     flex-direction: column;
-    justify-c: center;
+    justify-content: center;
     align-items: center;
     position: absolute;
     text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+    z-index: 1000;
+}
+
+button {
+  height: 50px;
+  width: 160px;
+  clip-path: path("M 0 25 C 0 -5, -5 0, 80 0 S 160 -5, 160 25, 165 50 80 50, 0 55, 0 25");
+  border: none;
+  border-radius: 13px;
+  background-color: var(--primaryBg);
+  box-shadow: 0px -3px 15px 0px var(--primaryHi) inset;
+  color: var(--primaryFg);
+  font-family: "Manrope";
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transform: translateY(0px);
+  transition: all 0.2s ease;
+}
+
+span
+{
+    width: 100px;
+    height: 60px;
+    background-color: var(--primaryHi);
+    border-radius: 100%;
+    filter: blur(20px);
+    position: absolute;
+    bottom: -50px;
+    transition: all 0.2s ease;
 }
