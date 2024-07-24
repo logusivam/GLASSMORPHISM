@@ -98,3 +98,43 @@ nav
     height: 100%;
     z-index: 1000;
 }
+
+.title > p
+{
+    margin: 0;
+    line-height: 10rem;
+    width: auto;
+}
+
+.title > p:nth-child(1)
+{
+    align-self: flex-start;
+}
+
+.title > p:nth-child(2)
+{
+    color: var(--primary);
+    align-self: flex-end;
+}
+
+.title > p:nth-child(3)
+{
+    align-self: flex-end;
+}
+
+.material-icons
+{
+    display: none;
+    fill: var(--text);
+}
+
+/* buttons */
+.button
+{
+    display: flex;
+    flex-direction: column;
+    justify-c: center;
+    align-items: center;
+    position: absolute;
+    text-decoration: none;
+}
