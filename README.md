@@ -3,6 +3,8 @@
 # Simple Glassmorphism Effect with Text using HTML and CSS
 
 This project demonstrates how to create a simple Glassmorphism effect with text displayed using HTML and CSS. The design features a frosted glass-like appearance that enhances the visual appeal of the text content, providing a modern and stylish look.
+
+## Demo
 ![image](https://github.com/user-attachments/assets/cc4f485f-6ca2-48e3-88e7-b3da1f377ae7)
 ## Features
 
